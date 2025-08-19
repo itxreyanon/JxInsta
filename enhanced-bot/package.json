@@ -1,0 +1,37 @@
+{
+  "name": "enhanced-instagram-telegram-bot",
+  "version": "2.0.0",
+  "description": "Enhanced Instagram-Telegram bridge with media support using JxInsta library",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --inspect main.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "fs-extra": "^11.1.1",
+    "axios": "^1.6.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongodb": "^6.3.0",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "instagram",
+    "telegram",
+    "bot",
+    "bridge",
+    "media",
+    "voice",
+    "jxinsta"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
